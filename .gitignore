@@ -1,0 +1,76 @@
+# Compiled Object files
+.*
+*.slo
+*.lo
+*.o
+*.obj
+*.o.*
+*.a
+*.s
+*.ko
+*.mod.c
+*.i
+*.lst
+*.symtypes
+*.order
+modules.builtin
+*.elf
+*.bin
+*.gz
+*.bz2
+*.lzma
+*.lzo
+*.patch
+*.gcno
+signing_key.*
+*.genkey
+Module.symvers
+System.map
+objs
+.DS_Store
+
+#
+# git files that we don't want to ignore even it they are dot-files
+#
+!.gitignore
+!.mailmap
+!.config
+
+#
+# Generated include files
+#
+*/include/config
+*/include/linux/version.h
+*/include/generated
+*/generated
+kernel-src/debian/
+kernel-src/vmlinux
+kernel-src/arch/x86/include/generated/
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*vdso/*.so
+*.so
+*.so.dbg
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#Eclipse Project
+Untitled.xcworkspace

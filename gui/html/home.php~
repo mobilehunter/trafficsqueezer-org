@@ -1,0 +1,5 @@
+<?php $page_title = "TrafficSqueezer Consolidated Report"; include('c/c_header.php'); ?>
+<script src="c/chart-js/Chart.js"></script>
+</head><?php include('c/c_body.php'); ?>
+<?php $contentfile="content_home.php";
+$help="nohelp"; include('c/c_main.php'); ?>

@@ -1,0 +1,3 @@
+mysql -uroot -pwelcome -e "drop database ts;"
+mysql -uroot -pwelcome -e "create database ts;"
+mysql -uroot -pwelcome ts < ./db_scripts.sql

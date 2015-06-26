@@ -1,0 +1,3 @@
+#!/bin/bash
+
+php -f ./make_clean.php

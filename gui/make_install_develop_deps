@@ -1,0 +1,26 @@
+#!/bin/bash
+
+
+#remove unwanted
+apt-get -y remove gnome-sudoku
+apt-get -y remove thunderbird
+apt-get -y remove gnome-mines
+apt-get -y remove aisleriot
+
+apt-get -y update
+apt-get -y install wireshark
+apt-get -y install bluefish
+apt-get -y install vim
+
+apt-get -y install kompare
+apt-get -y install kolourpaint
+apt-get -y install flashplugin-installer
+
+#kernel development
+apt-get -y install build-essential
+apt-get -y install kernel-package
+apt-get -y install libncurses5-dev
+apt-get -y install fakeroot
+apt-get -y install wget
+apt-get -y install bzip2
+

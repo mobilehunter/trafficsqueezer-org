@@ -1,0 +1,26 @@
+#!/bin/bash
+
+apt-get -y update
+apt-get -y install apache2
+
+#remove default apache page.
+rm -f /var/www/html/index.html
+
+apt-get -y install php5
+apt-get -y install libapache2-mod-php5
+apt-get -y install php5-mcrypt
+
+apt-get -y install mysql-server
+apt-get -y install libapache2-mod-auth-mysql
+apt-get -y install php5-mysql
+
+#enable apache to load with php support.
+service apache2 restart
+
+apt-get -y install bridge-utils
+
+#mysqladmin -u root password 'welcome'
+mysql -uroot -pwelcome -e "create database ts;"
+mysql -uroot -pwelcome ts < ./db_scripts.sql
+#mysql -uroot -pwelcome -e "grant usage on *.* to root@localhost identified by 'welcome';"
+
