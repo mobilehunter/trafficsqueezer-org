@@ -1,0 +1,2 @@
+export CONCURRENCY_LEVEL=3
+fakeroot make-kpkg --initrd --append-to-version=-ubuntu-ts-0.4.10 --revision=14.04.1.trusty.tahr  kernel_image kernel_headers -j3

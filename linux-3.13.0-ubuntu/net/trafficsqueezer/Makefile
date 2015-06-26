@@ -1,0 +1,2 @@
+obj-y := core.o coal_core.o dpi_core.o dpi_l7filter_hooks.o memreplace.o ip_flow.o ip_coal_flow.o \
+	dpi_dns.o dpi_pop.o dpi_http.o stats.o skbuff.o proc.o comp.o templ.o coal.o filter_dns.o engine.o init.o

@@ -1,0 +1,13 @@
+#
+# TrafficSqueezer   - configuration
+#
+config TRAFFICSQUEEZER
+	bool "TrafficSqueezer [TS]"
+	default y
+	---help---
+
+	  If unsure, say Y.
+
+config TRAFFICSQUEEZER_DEBUG
+	bool "TS - Debug Packets"
+	default y
